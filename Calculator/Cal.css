@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&family=Montserrat:wght@500&family=PT+Serif+Caption:ital@0;1&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: white;
+}
+.container h2{
+     align-items: center;
+     font-size: 70px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.container ul{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin-top: 30px;
+}
+.calItems input{
+     width: 23rem;
+     height: 3.7rem;
+     border-radius: 10px;
+     background: black;
+     border:2px solid rgb(41, 40, 40) ;
+     font-size: 2rem;
+}
+.calItems .btn{   
+     padding:20px ;
+     border-radius: 50%;
+     color: rgb(27, 27, 27);
+     font-size: 20px;
+     font-weight: 900;
+}
+ .button{
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 1rem;
+     margin-top: 1rem;
+}
+#Zero{
+     grid-column: 1/3;
+     border-radius: 40px;
+}
